@@ -57,9 +57,9 @@ estaciones de monitoreo en Texas.
 
 - IDW
 
-- krige
+- kriege
 
-- Otro (propuesta propia)
+- kriege simple
 
 2. Proporcione una descripción y justificación de la elección de los modelos y 
 parámetros utilizados.
@@ -79,6 +79,17 @@ predicción utilizados en este trabajo.
 
 \newpage
 # Desarrollo
+```{r eval=FALSE, message=FALSE, warning=FALSE,out.width="80%"}
+#Por si no contamos con las librerías
+# Primero instalar pacman si no está
+if(!require(pacman)) install.packages("pacman")
+
+# Luego usar p_load para instalar/cargar todo
+pacman::p_load(dplyr, ggplot2, sf, gstat, caret, tidyr, reshape2, 
+               geoR, spatstat, tidyverse)
+```
+
+
 
 ## IDW
 
