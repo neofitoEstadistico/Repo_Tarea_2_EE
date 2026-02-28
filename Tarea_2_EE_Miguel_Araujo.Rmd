@@ -586,3 +586,8 @@ lo que sugiere una mayor robustez al predecir puntos individuales no observados.
 En conjunto, estos resultados indican que en contextos con pocos datos 
 espaciales ($n = 21$), los métodos que incorporan supuestos adicionales o información externa pueden ofrecer predicciones más estables. Esta comparación resalta la importancia de emplear validaciones más exigentes y de no basar la evaluación del desempeño de los modelos únicamente en métricas obtenidas a 
 partir de particiones simples de los datos.
+
+El código completo de este análisis está disponible en:
+
+**Repositorio GitHub:** [https://github.com/neofitoEstadistico/Repo_Tarea_2_EE.git](https://github.com/neofitoEstadistico/Repo_Tarea_2_EE.git)
+
